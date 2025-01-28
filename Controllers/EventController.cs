@@ -135,6 +135,27 @@ namespace NegusEventsApi.Controllers
             return Ok(eventItem);
         }
 
+
+        /// <summary>
+        /// Publsih an event.
+        /// </summary>
+        /// <param name="id">The event ID.</param>
+        /// <returns>A message indicating the event has published.</returns>
+        [HttpPut("publish-event/{id}")]
+        [Authorize(Roles = "Organizer")]
+        public async Task<ActionResult> PublishEvent(string id)
+        {
+            var userId = User.FindFirst("UserId")?.Value;
+            if (!string.IsNullOrEmpty(userId))
+            {
+                Unauthorized("Unauthorized user");
+            }
+
+            await _eventService.PublishEventAsync(id, userId);
+            return Ok("Event Published Successfully");
+        }
+
+
         /// <summary>
         /// Starts an event.
         /// </summary>

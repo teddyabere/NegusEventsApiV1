@@ -19,7 +19,7 @@ namespace NegusEventsApi.Services
         {
             // Users Collection
             var usersCollection = _database.GetCollection<Users>("User");
-            usersCollection.Indexes.CreateOne(new CreateIndexModel<Users>(Builders<Users>.IndexKeys.Ascending(u => u.Email)));
+             usersCollection.Indexes.CreateOne(new CreateIndexModel<Users>(Builders<Users>.IndexKeys.Ascending(u => u.Email)));
             usersCollection.Indexes.CreateOne(new CreateIndexModel<Users>(Builders<Users>.IndexKeys.Ascending(u => u.Role)));
 
             // Events Collection

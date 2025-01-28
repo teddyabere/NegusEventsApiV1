@@ -79,6 +79,18 @@ namespace NegusEventsApi.Services
             existingEvent.UpdatedAt = DateTime.UtcNow;
             await _eventRepository.UpdateEventAsync(id, existingEvent);
         }
+        public async Task PublishEventAsync(string id, string userId)
+        {
+            var existingEvent = await GetEventByIdandUserIdAsync(id, userId);
+            if (existingEvent == null || existingEvent.Organizer.OrganizerId != userId)
+            {
+                throw new Exception("Event is not available");
+            }
+            existingEvent.Status = EventStatus.Published.ToString();
+
+            existingEvent.UpdatedAt = DateTime.UtcNow;
+            await _eventRepository.UpdateEventAsync(id, existingEvent);
+        }
         public async Task ExtendEventAsync(string id, string userId, DateTime startDate, DateTime endDate)
         {
             var existingEvent = await GetEventByIdandUserIdAsync(id, userId);

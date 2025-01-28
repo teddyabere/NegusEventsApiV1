@@ -14,6 +14,7 @@ namespace NegusEventsApi.Services
         Task DeleteEventAsync(string id);
         Task<List<Events>> SearchEventsAsync(SearchEventsDTO searchCriteria);
         Task StartEventAsync(string id, string userId);
+        Task PublishEventAsync(string id, string userId);
         Task ExtendEventAsync(string id, string userId, DateTime startDate, DateTime endDate);
         Task CancelEventAsync(string id, string userId);
         Task<List<Events>> GetEventByOrganizerIdAsync(string organizerId);

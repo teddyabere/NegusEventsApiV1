@@ -288,7 +288,7 @@ namespace NegusEventsApi.Controllers
         /// A list of tickets for the specified event, along with the total count:
         /// - <see cref="OkObjectResult"/>: Contains the total count and ticket details.
         /// </returns>
-        [HttpGet("get-reserved-tickets-by-user-id")]
+        [HttpGet("get-my-reserved-tickets")]
         [Authorize(Roles = "Attendee")]
         public async Task<IActionResult> GetReservedTicketsByUser()
         {
@@ -312,7 +312,7 @@ namespace NegusEventsApi.Controllers
         /// A list of tickets for the specified event, along with the total count:
         /// - <see cref="OkObjectResult"/>: Contains the total count and ticket details.
         /// </returns>
-        [HttpGet("get-confirmed-tickets-by-user-id")]
+        [HttpGet("get-my-confirmed-tickets")]
         [Authorize(Roles = "Attendee")]
         public async Task<IActionResult> GetConfirmedTicketsByUser()
         {
