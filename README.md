@@ -71,8 +71,8 @@ The `appsettings.json` file configures MongoDB, Redis, and authentication:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/negus-events-api.git
-cd negus-events-api
+git clone https://github.com/teddyabere/NegusEventsApiV1.git
+cd NegusEventsApiV1
 ```
 
 ### Restore Dependencies
