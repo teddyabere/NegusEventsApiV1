@@ -23,10 +23,10 @@ namespace NegusEventsApi.Models.Feedback
         public string Comment { get; set; }
 
         [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public string CreatedAt { get; set; }
 
         [BsonElement("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public string UpdatedAt { get; set; }
     }
 
     public class EventInfo
@@ -35,7 +35,7 @@ namespace NegusEventsApi.Models.Feedback
         public string EventId { get; set; }
 
         [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public string CreatedAt { get; set; }
 
         [BsonElement("organizerId")]
         public string OrganizerId { get; set; }

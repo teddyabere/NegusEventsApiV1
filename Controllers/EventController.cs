@@ -53,8 +53,8 @@ namespace NegusEventsApi.Controllers
             eventItem.Organizer.OrganizerId = organizerId;
             eventItem.Organizer.Name = organizerName;
 
-            eventItem.CreatedAt = DateTime.Now;
-            eventItem.UpdatedAt = DateTime.Now;
+            eventItem.CreatedAt = DateTime.Now.ToString();
+            eventItem.UpdatedAt = DateTime.Now.ToString();
 
             await _eventService.CreateEventAsync(eventItem);
 
@@ -185,7 +185,7 @@ namespace NegusEventsApi.Controllers
         
         [HttpPut("extend-event/{id}")]
         [Authorize(Roles = "Organizer")]
-        public async Task<ActionResult> Extendevent(string id, DateTime startDate, DateTime endDate)
+        public async Task<ActionResult> Extendevent(string id, string startDate, string endDate)
         {
             // TODO: Check if the attendee is updating its own ticket
 

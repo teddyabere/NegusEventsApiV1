@@ -32,8 +32,8 @@ namespace NegusEventsApi.Services
                 user.Tickets = new List<TicketDetail>();
 
             }
-            user.CreatedAt = DateTime.Now;
-            user.UpdatedAt = DateTime.Now;
+            user.CreatedAt = DateTime.Now.ToString();
+            user.UpdatedAt = DateTime.Now.ToString();
             await _userRepository.AddUserAsync(user);
             
         }

@@ -36,7 +36,7 @@ namespace NegusEventsApi.Models.Ticket
         public string PaymentMethod { get; set; }
 
         [BsonElement("paymentDate")]
-        public DateTime PaymentDate { get; set; }
+        public string PaymentDate { get; set; }
     }
 
     public class Event
@@ -48,7 +48,7 @@ namespace NegusEventsApi.Models.Ticket
         public string Name { get; set; }
         
         [BsonElement("startDate")]
-        public DateTime StartDate { get; set; }
+        public string StartDate { get; set; }
         
         [BsonElement("country")]
         public string Country { get; set; }
@@ -86,9 +86,9 @@ namespace NegusEventsApi.Models.Ticket
         public Payments? Payments { get; set; }
         
         [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public string CreatedAt { get; set; }
         
         [BsonElement("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public string UpdatedAt { get; set; }
     }
 }

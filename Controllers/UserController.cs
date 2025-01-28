@@ -90,7 +90,7 @@ namespace NegusEventsApi.Controllers
                     issuer: _configuration["Jwt:Issuer"],
                     audience: _configuration["Jwt:Issuer"],
                     claims: claims,
-                    expires: DateTime.Now.AddMinutes(120),
+                    expires: DateTime.Now.AddMinutes(30),
                     signingCredentials: credentials
                 ));
 

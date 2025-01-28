@@ -89,8 +89,8 @@ namespace NegusEventsApi.Services
             };
             ticket.Status = TicketStatus.Reserved;
             ticket.IsPaid = false;
-            ticket.CreatedAt = DateTime.UtcNow;
-            ticket.UpdatedAt = DateTime.UtcNow;
+            ticket.CreatedAt = DateTime.Now.ToString();
+            ticket.UpdatedAt = DateTime.Now.ToString();
             ticket.Payments = new Payments();
 
             await _ticketRepository.CreateTicketAsync(ticket);
@@ -141,7 +141,7 @@ namespace NegusEventsApi.Services
 
             existingTicket.Status = TicketStatus.Confirmed;
             existingTicket.IsPaid = true;
-            existingTicket.UpdatedAt = DateTime.UtcNow;
+            existingTicket.UpdatedAt = DateTime.Now.ToString();
             if (existingTicket.Payments == null)
             {
                 existingTicket.Payments = new Payments();
@@ -150,7 +150,7 @@ namespace NegusEventsApi.Services
             existingTicket.Payments.AmountPaid = amountPaid;
             existingTicket.Payments.PaymentMethod = "Card";
             existingTicket.Payments.PaymentStatus = PaymentStatus.Paid.ToString();
-            existingTicket.Payments.PaymentDate = DateTime.Now;
+            existingTicket.Payments.PaymentDate = DateTime.Now.ToString();
 
 
             await _ticketRepository.UpdateTicketAsync(ticketId, existingTicket);
@@ -190,7 +190,7 @@ namespace NegusEventsApi.Services
             {
                 
                 ticket.Status = TicketStatus.Cancelled;
-                ticket.UpdatedAt = DateTime.UtcNow;
+                ticket.UpdatedAt = DateTime.Now.ToString();
 
                 await _redisCacheService.IncrementAvailableTicketsAsync(ticket.Event.EventId);
                 await _ticketRepository.UpdateTicketAsync(ticket.Id, ticket);
@@ -214,7 +214,7 @@ namespace NegusEventsApi.Services
                 throw new Exception("Ticket is not available");
             }
 
-            ticket.UpdatedAt = DateTime.UtcNow;
+            ticket.UpdatedAt = DateTime.Now.ToString();
             await _ticketRepository.UpdateTicketAsync(id, ticket);
         }
 
@@ -231,7 +231,7 @@ namespace NegusEventsApi.Services
             }
             existingTicket.Status = TicketStatus.Cancelled;
 
-            existingTicket.UpdatedAt = DateTime.UtcNow;
+            existingTicket.UpdatedAt = DateTime.Now.ToString();
             await _ticketRepository.UpdateTicketAsync(id, existingTicket);
         }
 

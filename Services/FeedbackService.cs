@@ -23,14 +23,14 @@ namespace NegusEventsApi.Services
 
         public async Task AddFeedbackAsync(Feedbacks feedback)
         {
-            feedback.CreatedAt = DateTime.UtcNow;
-            feedback.UpdatedAt = DateTime.UtcNow;
+            feedback.CreatedAt = DateTime.Now.ToString();
+            feedback.UpdatedAt = DateTime.Now.ToString();
             await _feedbackRepository.AddFeedbackAsync(feedback);
         }
 
         public async Task UpdateFeedbackAsync(string id, Feedbacks feedback)
         {
-            feedback.UpdatedAt = DateTime.UtcNow;
+            feedback.UpdatedAt = DateTime.Now.ToString();
             await _feedbackRepository.UpdateFeedbackAsync(id, feedback);
         }
 

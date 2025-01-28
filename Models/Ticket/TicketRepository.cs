@@ -82,12 +82,25 @@ namespace NegusEventsApi.Models.Ticket
 
         public async Task<List<Tickets>> CheckExpiredTicketByUserIdAsync()
         {
-            var existingReservation = await _tickets
-                .Find(t => t.Status == TicketStatus.Reserved && 
-                t.CreatedAt < DateTime.UtcNow.AddMinutes(-15)).ToListAsync();
+            var allReservedTickets = await _tickets
+                .Find(t => t.Status == TicketStatus.Reserved)
+                .ToListAsync();
 
-            return existingReservation;
+            var expiredTickets = allReservedTickets
+                .Where(t =>
+                {
+                    if (DateTime.TryParse(t.CreatedAt, out DateTime createdAt))
+                    {
+                        return createdAt < DateTime.UtcNow.AddMinutes(-15);
+                    }
+                    return false;
+                })
+                .ToList();
+
+            return expiredTickets;
         }
+
+
 
         public async Task CreateTicketAsync(Tickets ticket)
         {

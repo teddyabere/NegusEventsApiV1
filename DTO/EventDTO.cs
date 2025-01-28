@@ -10,14 +10,14 @@ namespace NegusEventsApi.DTO
             public string OrganizerId { get; set; }
             public string Name { get; set; }
             public string Description { get; set; }
-            public DateTime StartDate { get; set; }
-            public DateTime EndDate { get; set; }
+            public string StartDate { get; set; }
+            public string EndDate { get; set; }
             public Location Location { get; set; }
             public string Category { get; set; }
             public int MaxAttendees { get; set; }
             public string Status { get; set; }
-            public DateTime CreatedAt { get; set; }
-            public DateTime UpdatedAt { get; set; }
+            public string CreatedAt { get; set; }
+            public string UpdatedAt { get; set; }
         
     }
 }

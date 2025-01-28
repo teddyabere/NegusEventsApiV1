@@ -18,7 +18,7 @@ namespace NegusEventsApi.DTO
         public string EventId { get; set; } 
         public AttendeeDTO Attendee { get; set; }
         public string TicketType { get; set; }
-        public DateTime PurchaseDate { get; set; }
+        public string PurchaseDate { get; set; }
         public string Status { get; set; }
     }
 

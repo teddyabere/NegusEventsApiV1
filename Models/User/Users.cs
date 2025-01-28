@@ -12,7 +12,7 @@ namespace NegusEventsApi.Models.User
         public string Name { get; set; }
 
         [BsonElement("startDate")]
-        public DateTime StartDate { get; set; }
+        public string StartDate { get; set; }
     }
 
     public class Profile
@@ -75,10 +75,10 @@ namespace NegusEventsApi.Models.User
         public List<TicketDetail>? Tickets { get; set; }
 
         [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public string CreatedAt { get; set; }
 
         [BsonElement("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public string UpdatedAt { get; set; }
     }
 
     public class ResetForgotPasswordRequest

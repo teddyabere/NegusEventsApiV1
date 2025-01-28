@@ -67,10 +67,10 @@ namespace NegusEventsApi.Models.Event
         public string Description { get; set; }
 
         [BsonElement("startDate")]
-        public DateTime StartDate { get; set; }
+        public string StartDate { get; set; }
 
         [BsonElement("endDate")]
-        public DateTime EndDate { get; set; }
+        public string EndDate { get; set; }
 
         [BsonElement("location")]
         public Location Location { get; set; }
@@ -94,9 +94,9 @@ namespace NegusEventsApi.Models.Event
         public string? Status { get; set; }
 
         [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public string CreatedAt { get; set; }
 
         [BsonElement("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public string UpdatedAt { get; set; }
     }
 }

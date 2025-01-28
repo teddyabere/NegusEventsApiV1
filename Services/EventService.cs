@@ -76,7 +76,7 @@ namespace NegusEventsApi.Services
             }
             existingEvent.Status = EventStatus.Started.ToString();
 
-            existingEvent.UpdatedAt = DateTime.UtcNow;
+            existingEvent.UpdatedAt = DateTime.Now.ToString();
             await _eventRepository.UpdateEventAsync(id, existingEvent);
         }
         public async Task PublishEventAsync(string id, string userId)
@@ -88,10 +88,10 @@ namespace NegusEventsApi.Services
             }
             existingEvent.Status = EventStatus.Published.ToString();
 
-            existingEvent.UpdatedAt = DateTime.UtcNow;
+            existingEvent.UpdatedAt = DateTime.Now.ToString();
             await _eventRepository.UpdateEventAsync(id, existingEvent);
         }
-        public async Task ExtendEventAsync(string id, string userId, DateTime startDate, DateTime endDate)
+        public async Task ExtendEventAsync(string id, string userId, string startDate, string endDate)
         {
             var existingEvent = await GetEventByIdandUserIdAsync(id, userId);
             if (existingEvent == null || existingEvent.Organizer.OrganizerId != userId)
@@ -102,7 +102,7 @@ namespace NegusEventsApi.Services
             existingEvent.EndDate = endDate;
             existingEvent.Status = EventStatus.Extended.ToString();
 
-            existingEvent.UpdatedAt = DateTime.UtcNow;
+            existingEvent.UpdatedAt = DateTime.Now.ToString();
             await _eventRepository.UpdateEventAsync(id, existingEvent);
         }
         public async Task CancelEventAsync(string id, string userId)
@@ -114,7 +114,7 @@ namespace NegusEventsApi.Services
             }
             existingEvent.Status = EventStatus.Cancelled.ToString();
 
-            existingEvent.UpdatedAt = DateTime.UtcNow;
+            existingEvent.UpdatedAt = DateTime.Now.ToString();
             await _eventRepository.UpdateEventAsync(id, existingEvent);
         }
 
