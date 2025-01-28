@@ -47,7 +47,7 @@ The `appsettings.json` file configures MongoDB, Redis, and authentication:
 ```json
 {
   "NegusEventsDbSettings": {
-    "ConnectionString": "mongodb://10.1.1.54,10.1.1.48,10.1.1.46/?replicaSet=NegusReplicaSet&readPreference=secondaryPreferred"
+    "ConnectionString": "mongodb://10.1.1.54,10.1.1.48,10.1.1.46/?replicaSet=NegusReplicaSet&w=2&readPreference=secondaryPreferred"
     "DatabaseName": "NegusEvents"
   },
   "Jwt": {
