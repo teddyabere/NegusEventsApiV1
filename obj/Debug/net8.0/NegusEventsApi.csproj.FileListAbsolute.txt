@@ -1,0 +1,119 @@
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\appsettings.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.staticwebassets.endpoints.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.exe
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.deps.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.runtimeconfig.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\NegusEventsApi.pdb
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Snappier.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.csproj.AssemblyReference.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.AssemblyInfoInputs.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.AssemblyInfo.cs
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.csproj.CoreCompileInputs.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\scopedcss\bundle\NegusEventsApi.styles.css
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets\msbuild.NegusEventsApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets\msbuild.NegusEventsApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets\msbuild.build.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEve.9628FBD9.Up2Date
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\refint\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.pdb
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\NegusEventsApi.genruntimeconfig.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\obj\Debug\net8.0\ref\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\NegusEventsApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\appsettings.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.staticwebassets.endpoints.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.exe
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.deps.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.runtimeconfig.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.pdb
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\NegusEventsApi.xml
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Snappier.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.csproj.AssemblyReference.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.AssemblyInfoInputs.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.AssemblyInfo.cs
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.csproj.CoreCompileInputs.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\scopedcss\bundle\NegusEventsApi.styles.css
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets\msbuild.NegusEventsApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets\msbuild.NegusEventsApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets\msbuild.build.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NegusEventsApi.props
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEve.9628FBD9.Up2Date
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\refint\NegusEventsApi.dll
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.xml
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.pdb
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\NegusEventsApi.genruntimeconfig.cache
+C:\Users\Theodore\Documents\Projects\Ted\NegusEvents\Negus New\NegusEventsApiV1\obj\Debug\net8.0\ref\NegusEventsApi.dll

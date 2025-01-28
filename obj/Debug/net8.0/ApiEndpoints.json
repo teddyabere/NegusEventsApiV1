@@ -1,0 +1,936 @@
+[
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetAverageRatingByEvent",
+    "RelativePath": "api/Analytics/aggregation/admin/average-rating-by-event",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetEventsByCategory",
+    "RelativePath": "api/Analytics/aggregation/admin/events-by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetEventsByLocation",
+    "RelativePath": "api/Analytics/aggregation/admin/events-by-location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetAdminAnalytics",
+    "RelativePath": "api/Analytics/aggregation/admin/get-overall-aggregation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTotalTicketsSold",
+    "RelativePath": "api/Analytics/aggregation/admin/get-total-tickets-sold",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTotalRevenue",
+    "RelativePath": "api/Analytics/aggregation/admin/total-revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetEventsByCityAsync",
+    "RelativePath": "api/Analytics/aggregation/get-events-by-city",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetEventsByCountryAsync",
+    "RelativePath": "api/Analytics/aggregation/get-events-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetNumberOfAttendeesByCountryAsync",
+    "RelativePath": "api/Analytics/aggregation/get-number-of-attendees-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetOrganizersByCountryAsync",
+    "RelativePath": "api/Analytics/aggregation/get-organizers-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTop10EventsByRatingAsync",
+    "RelativePath": "api/Analytics/aggregation/get-top10-events-by-rating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTop5CitiesWithMostEventsAsync",
+    "RelativePath": "api/Analytics/aggregation/get-top5-cities-with-most-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTop5EventsByRatingAsync",
+    "RelativePath": "api/Analytics/aggregation/get-top5-events-by-rating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetAttendeeStatistics",
+    "RelativePath": "api/Analytics/aggregation/organizer/get-attendee-statistics-by-organizer-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetTicketsSold",
+    "RelativePath": "api/Analytics/aggregation/organizer/get-tickets-sold-by-organizer-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.AnalyticsController",
+    "Method": "GetRevenue",
+    "RelativePath": "api/Analytics/aggregation/organizer/get-total-revenue-by-organizer-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "Cancelevent",
+    "RelativePath": "api/Event/cancel-event/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "CreateEvent",
+    "RelativePath": "api/Event/create-event",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventItem",
+        "Type": "NegusEventsApi.Models.Event.Events",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/Event/delete-event/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "Extendevent",
+    "RelativePath": "api/Event/extend-event/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetActiveEvents",
+    "RelativePath": "api/Event/get-active-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NegusEventsApi.Models.Event.Events, NegusEventsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetAllEvents",
+    "RelativePath": "api/Event/get-all-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NegusEventsApi.Models.Event.Events, NegusEventsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventByCityAsync",
+    "RelativePath": "api/Event/get-event-by-city",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventByCityandCountryAsync",
+    "RelativePath": "api/Event/get-event-by-city-and-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventByCountryAsync",
+    "RelativePath": "api/Event/get-event-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventByOrganizerIdAsync",
+    "RelativePath": "api/Event/get-event-by-organizer-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventById",
+    "RelativePath": "api/Event/get-event-byid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NegusEventsApi.Models.Event.Events",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "GetEventByIdWithRedis",
+    "RelativePath": "api/Event/get-event-redis/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NegusEventsApi.Models.Event.Events",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "SearchEvents",
+    "RelativePath": "api/Event/search-event",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchCriteria",
+        "Type": "NegusEventsApi.DTO.SearchEventsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NegusEventsApi.Models.Event.Events, NegusEventsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "Startevent",
+    "RelativePath": "api/Event/start-event/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.EventController",
+    "Method": "UpdateEvent",
+    "RelativePath": "api/Event/update-event/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "eventItem",
+        "Type": "NegusEventsApi.Models.Event.Events",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "GetAllFeedback",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NegusEventsApi.Models.Feedback.Feedbacks, NegusEventsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "GetAverageRating",
+    "RelativePath": "api/Feedback/{eventId}/average-rating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "UpdateFeedback",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "feedback",
+        "Type": "NegusEventsApi.Models.Feedback.Feedbacks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "DeleteFeedback",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "GetFeedbackById",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NegusEventsApi.Models.Feedback.Feedbacks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.FeedbackController",
+    "Method": "CreateFeedback",
+    "RelativePath": "api/Feedback/create-feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedback",
+        "Type": "NegusEventsApi.Models.Feedback.Feedbacks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "CancelBooking",
+    "RelativePath": "api/Ticket/cancel-booking/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "CancelTicketReservation",
+    "RelativePath": "api/Ticket/cancel-ticket-reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "ConfirmTicketReservation",
+    "RelativePath": "api/Ticket/confirm-ticket-reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amountPaid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "CreateTicketReservation",
+    "RelativePath": "api/Ticket/create-ticket-reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticket",
+        "Type": "NegusEventsApi.Models.Ticket.Tickets",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "DeleteTicket",
+    "RelativePath": "api/Ticket/delete-ticket/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetAvailableTickets",
+    "RelativePath": "api/Ticket/get-available-tickets-by-event-id-redis/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetCancelledTicketsByEventId",
+    "RelativePath": "api/Ticket/get-cancelled-tickets-by-event-id/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetConfirmedTicketsByEventId",
+    "RelativePath": "api/Ticket/get-confirmed-tickets-by-event-id/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetConfirmedTicketsByUser",
+    "RelativePath": "api/Ticket/get-confirmed-tickets-by-user-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetReservedTicketsByEventId",
+    "RelativePath": "api/Ticket/get-reserved-tickets-by-event-id/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetReservedTicketsByUser",
+    "RelativePath": "api/Ticket/get-reserved-tickets-by-user-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetTicketById",
+    "RelativePath": "api/Ticket/get-ticket-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "GetTicketsByEventId",
+    "RelativePath": "api/Ticket/get-tickets-by-event-id/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.TicketController",
+    "Method": "UpdateTicket",
+    "RelativePath": "api/Ticket/update-ticket/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ticket",
+        "Type": "NegusEventsApi.Models.Ticket.Tickets",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "ApproveOrganizer",
+    "RelativePath": "api/User/approve-Organizer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "GetApprovedOrganizers",
+    "RelativePath": "api/User/get-approved-organizers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "GetPendingOrganizers",
+    "RelativePath": "api/User/get-pending-organizers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "GetUserbyEmailid",
+    "RelativePath": "api/User/get-user-by-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/User/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NegusEventsApi.Models.User.ResetForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/sign-up/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "NegusEventsApi.Models.User.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "RegisterOrganizer",
+    "RelativePath": "api/User/sign-up/register-organizer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "NegusEventsApi.Models.User.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NegusEventsApi.Controllers.UserController",
+    "Method": "LogIn",
+    "RelativePath": "api/User/user-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "NegusEventsApi.DTO.NLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

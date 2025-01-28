@@ -1,0 +1,2041 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Negus Events API",
+    "description": "API documentation for the Negus Events system.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Analytics/aggregation/admin/get-overall-aggregation": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets overall analytics for the admin.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/admin/get-total-tickets-sold": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the total number of tickets sold.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/admin/total-revenue": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the total revenue from all events.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/admin/events-by-category": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the events categorized by type.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/admin/events-by-location": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the events categorized by location.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/admin/average-rating-by-event": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the average rating for each event.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/organizer/get-tickets-sold-by-organizer-id": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the total tickets sold by a specific organizer.",
+        "parameters": [
+          {
+            "name": "organizerId",
+            "in": "query",
+            "description": "The ID of the organizer.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/organizer/get-total-revenue-by-organizer-id": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the total revenue by a specific organizer.",
+        "parameters": [
+          {
+            "name": "organizerId",
+            "in": "query",
+            "description": "The ID of the organizer.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/organizer/get-attendee-statistics-by-organizer-id": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets attendee statistics for a specific organizer.",
+        "parameters": [
+          {
+            "name": "organizerId",
+            "in": "query",
+            "description": "The ID of the organizer.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-events-by-city": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets events by city.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-events-by-country": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets events by country.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-organizers-by-country": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the organizers by country.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-number-of-attendees-by-country": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the number of attendees by country.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-top5-cities-with-most-events": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the top 5 cities with the most events.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-top10-events-by-rating": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the top 10 events each year by rating.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Analytics/aggregation/get-top5-events-by-rating": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Gets the top 5 events based on ratings.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/create-event": {
+      "post": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Creates a new event.",
+        "requestBody": {
+          "description": "The event details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/get-all-events": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves all active events.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Event/get-active-events": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves all active events.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-byid/{id}": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves an event by its ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-redis/{id}": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves an event by its ID from the cache, or fetches from the database if not cached.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Events"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Event/start-event/{id}": {
+      "put": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Starts an event.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/extend-event/{id}": {
+      "put": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Extends the duration of an event.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "startDate",
+            "in": "query",
+            "description": "The new start date for the event.",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "endDate",
+            "in": "query",
+            "description": "The new end date for the event.",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/cancel-event/{id}": {
+      "put": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Cancels an event.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/update-event/{id}": {
+      "put": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Updates an existing event.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The updated event details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Events"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/delete-event/{id}": {
+      "delete": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Deletes an event by its ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The event ID.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/search-event": {
+      "post": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Searches for events based on the provided criteria.",
+        "requestBody": {
+          "description": "The search criteria for events.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchEventsDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchEventsDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchEventsDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Events"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-by-organizer-id": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves events by the organizer's ID.",
+        "parameters": [
+          {
+            "name": "organizerId",
+            "in": "query",
+            "description": "The organizer's ID.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-by-city-and-country": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves events by city and country.",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "description": "The city name.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "description": "The country name.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-by-country": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves events by country.",
+        "parameters": [
+          {
+            "name": "country",
+            "in": "query",
+            "description": "The country name.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Event/get-event-by-city": {
+      "get": {
+        "tags": [
+          "Event"
+        ],
+        "summary": "Retrieves events by city.",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "description": "The city name.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Feedback/create-feedback": {
+      "post": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Creates new feedback.",
+        "requestBody": {
+          "description": "The feedback object to create.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized if attendee ID is not provided."
+          },
+          "500": {
+            "description": "Internal server error if something goes wrong."
+          }
+        }
+      }
+    },
+    "/api/Feedback/{id}": {
+      "put": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Updates feedback by ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The ID of the feedback to update.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The updated feedback object.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedbacks"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Feedback not found."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Deletes feedback by ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The ID of the feedback to delete.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Feedback not found."
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Retrieves feedback by ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The ID of the feedback to retrieve.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedbacks"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedbacks"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedbacks"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Feedback not found."
+          }
+        }
+      }
+    },
+    "/api/Feedback": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Retrieves all feedback.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Feedbacks"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Feedbacks"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Feedbacks"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Feedback/{eventId}/average-rating": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "summary": "Retrieves the average rating for a specific event based on feedback.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The ID of the event to get the average rating for.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/create-ticket-reservation": {
+      "post": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Creates a ticket reservation for the specified event.",
+        "requestBody": {
+          "description": "The ticket details, including the associated event.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/confirm-ticket-reservation": {
+      "post": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Confirms a ticket reservation and processes the payment.",
+        "parameters": [
+          {
+            "name": "ticketId",
+            "in": "query",
+            "description": "The unique identifier of the ticket reservation to confirm.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "amountPaid",
+            "in": "query",
+            "description": "The payment amount for the reservation.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/cancel-ticket-reservation": {
+      "post": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Cancels a ticket reservation for the specified ticket and event.",
+        "parameters": [
+          {
+            "name": "ticketId",
+            "in": "query",
+            "description": "The unique identifier of the ticket to cancel.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "eventId",
+            "in": "query",
+            "description": "The unique identifier of the event associated with the ticket.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/update-ticket/{id}": {
+      "put": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Updates the details of a ticket for the specified ticket ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier of the ticket to update.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The updated ticket details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tickets"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/cancel-booking/{id}": {
+      "put": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Cancels a ticket booking for the specified ticket ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier of the ticket booking to cancel.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/delete-ticket/{id}": {
+      "delete": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Deletes a ticket by its unique identifier.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier of the ticket to delete.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-tickets-by-event-id/{eventId}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all tickets associated with a specific event.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The unique identifier of the event.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-confirmed-tickets-by-event-id/{eventId}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all confirmed tickets associated with a specific event.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The unique identifier of the event.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-reserved-tickets-by-event-id/{eventId}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all reserved tickets associated with a specific event.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The unique identifier of the event.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-cancelled-tickets-by-event-id/{eventId}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all cancelled tickets associated with a specific event.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The unique identifier of the event.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-ticket-by-id/{id}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves specific ticket associated with ticket id.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier of the ticket.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-reserved-tickets-by-user-id": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all reserved tickets associated with a specific user from redis.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-confirmed-tickets-by-user-id": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all confirmed tickets associated with a specific user from redis.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-available-tickets-by-event-id-redis/{eventId}": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "summary": "Retrieves all available tickets associated with a specific event from redis.",
+        "parameters": [
+          {
+            "name": "eventId",
+            "in": "path",
+            "description": "The unique identifier of the user.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/sign-up/register": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Registers a new user.",
+        "requestBody": {
+          "description": "The user object containing user details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/sign-up/register-organizer": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Registers a new organizer.",
+        "requestBody": {
+          "description": "The organizer object containing organizer details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/user-login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Logs in a user and generates a JWT token.",
+        "requestBody": {
+          "description": "The login request containing email and password.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NLoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NLoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NLoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/get-user-by-email": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Gets a user by email.",
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "description": "The email address of the user.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/get-pending-organizers": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Gets a list of pending organizers.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/get-approved-organizers": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Gets a list of approved organizers.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/approve-Organizer": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Approves an organizer.",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "description": "The user ID of the organizer to approve.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/reset-password": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Resets a user's password.",
+        "requestBody": {
+          "description": "The reset password request containing email, token, and new password.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetForgotPasswordRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetForgotPasswordRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetForgotPasswordRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Attendee": {
+        "type": "object",
+        "properties": {
+          "attendeeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AttendeeInfo": {
+        "type": "object",
+        "properties": {
+          "attendeeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Event": {
+        "type": "object",
+        "properties": {
+          "eventId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "organizerId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EventDetail": {
+        "type": "object",
+        "properties": {
+          "eventId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EventInfo": {
+        "type": "object",
+        "properties": {
+          "eventId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "organizerId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Events": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "organizer": {
+            "$ref": "#/components/schemas/OrganizerInfo"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "location": {
+            "$ref": "#/components/schemas/Location"
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "maximumAttendees": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantityAvailable": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "quantitySold": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ticketTypes": {
+            "$ref": "#/components/schemas/TicketType"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Feedbacks": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "event": {
+            "$ref": "#/components/schemas/EventInfo"
+          },
+          "attendee": {
+            "$ref": "#/components/schemas/AttendeeInfo"
+          },
+          "rating": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Location": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NLoginRequest": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrganizerInfo": {
+        "type": "object",
+        "properties": {
+          "organizerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Payments": {
+        "type": "object",
+        "properties": {
+          "amountPaid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paymentStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Profile": {
+        "type": "object",
+        "properties": {
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResetForgotPasswordRequest": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "newPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchEventsDTO": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "minPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "maxPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "minAttendees": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxAttendees": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TicketDetail": {
+        "type": "object",
+        "properties": {
+          "ticketId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ticketType": {
+            "type": "string",
+            "nullable": true
+          },
+          "amountPaid": {
+            "type": "number",
+            "format": "double"
+          },
+          "eventName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TicketStatus": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "TicketType": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tickets": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "event": {
+            "$ref": "#/components/schemas/Event"
+          },
+          "attendee": {
+            "$ref": "#/components/schemas/Attendee"
+          },
+          "ticketType": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/TicketStatus"
+          },
+          "ticketQuantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isPaid": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "payments": {
+            "$ref": "#/components/schemas/Payments"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Users": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "profile": {
+            "$ref": "#/components/schemas/Profile"
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EventDetail"
+            },
+            "nullable": true
+          },
+          "tickets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TicketDetail"
+            },
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fbJwfsGGV2s/RfJtObl7TiJGcjPIhQRJyHh6V2DXsTM=",
+  "Source": "NegusEventsApi",
+  "BasePath": "_content/NegusEventsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

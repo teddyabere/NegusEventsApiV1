@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NegusEventsApi</name>
+    </assembly>
+    <members>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetAdminAnalytics">
+            <summary>
+            Gets overall analytics for the admin.
+            </summary>
+            <returns>The overall analytics data.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTotalTicketsSold">
+            <summary>
+            Gets the total number of tickets sold.
+            </summary>
+            <returns>The total number of tickets sold.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTotalRevenue">
+            <summary>
+            Gets the total revenue from all events.
+            </summary>
+            <returns>The total revenue from all events.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetEventsByCategory">
+            <summary>
+            Gets the events categorized by type.
+            </summary>
+            <returns>The events grouped by category.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetEventsByLocation">
+            <summary>
+            Gets the events categorized by location.
+            </summary>
+            <returns>The events grouped by location.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetAverageRatingByEvent">
+            <summary>
+            Gets the average rating for each event.
+            </summary>
+            <returns>The average rating for each event.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTicketsSold(System.String)">
+            <summary>
+            Gets the total tickets sold by a specific organizer.
+            </summary>
+            <param name="organizerId">The ID of the organizer.</param>
+            <returns>The total number of tickets sold by the organizer.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetRevenue(System.String)">
+            <summary>
+            Gets the total revenue by a specific organizer.
+            </summary>
+            <param name="organizerId">The ID of the organizer.</param>
+            <returns>The total revenue for the organizer.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetAttendeeStatistics(System.String)">
+            <summary>
+            Gets attendee statistics for a specific organizer.
+            </summary>
+            <param name="organizerId">The ID of the organizer.</param>
+            <returns>The attendee statistics for the organizer.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetEventsByCityAsync">
+            <summary>
+            Gets events by city.
+            </summary>
+            <returns>The events that are hosted in various cities.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetEventsByCountryAsync">
+            <summary>
+            Gets events by country.
+            </summary>
+            <returns>The events that are hosted in various countries.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetOrganizersByCountryAsync">
+            <summary>
+            Gets the organizers by country.
+            </summary>
+            <returns>The organizers that are based in various countries.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetNumberOfAttendeesByCountryAsync">
+            <summary>
+            Gets the number of attendees by country.
+            </summary>
+            <returns>The number of attendees by country.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTop5CitiesWithMostEventsAsync">
+            <summary>
+            Gets the top 5 cities with the most events.
+            </summary>
+            <returns>The top 5 cities with the most events.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTop10EventsByRatingAsync">
+            <summary>
+            Gets the top 10 events each year by rating.
+            </summary>
+            <returns>The top 10 events each year based on ratings.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.AnalyticsController.GetTop5EventsByRatingAsync">
+            <summary>
+            Gets the top 5 events based on ratings.
+            </summary>
+            <returns>The top 5 events based on ratings.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.CreateEvent(NegusEventsApi.Models.Event.Events)">
+            <summary>
+            Creates a new event.
+            </summary>
+            <param name="eventItem">The event details.</param>
+            <returns>A response with the created event.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetAllEvents">
+            <summary>
+            Retrieves all active events.
+            </summary>
+            <returns>A list of active events.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetActiveEvents">
+            <summary>
+            Retrieves all active events.
+            </summary>
+            <returns>A list of active events.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventById(System.String)">
+            <summary>
+            Retrieves an event by its ID.
+            </summary>
+            <param name="id">The event ID.</param>
+            <returns>The event details.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventByIdWithRedis(System.String)">
+            <summary>
+            Retrieves an event by its ID from the cache, or fetches from the database if not cached.
+            </summary>
+            <param name="id">The event ID.</param>
+            <returns>The event details from cache or database.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.Startevent(System.String)">
+            <summary>
+            Starts an event.
+            </summary>
+            <param name="id">The event ID.</param>
+            <returns>A message indicating the event has started.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.Extendevent(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Extends the duration of an event.
+            </summary>
+            <param name="id">The event ID.</param>
+            <param name="startDate">The new start date for the event.</param>
+            <param name="endDate">The new end date for the event.</param>
+            <returns>A message indicating the event has been extended.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.Cancelevent(System.String)">
+            <summary>
+            Cancels an event.
+            </summary>
+            <param name="id">The event ID.</param>
+            <returns>A message indicating the event has been cancelled.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.UpdateEvent(System.String,NegusEventsApi.Models.Event.Events)">
+            <summary>
+            Updates an existing event.
+            </summary>
+            <param name="id">The event ID.</param>
+            <param name="eventItem">The updated event details.</param>
+            <returns>A response indicating the event has been updated.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.DeleteEvent(System.String)">
+            <summary>
+            Deletes an event by its ID.
+            </summary>
+            <param name="id">The event ID.</param>
+            <returns>A response indicating the event has been deleted.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.SearchEvents(NegusEventsApi.DTO.SearchEventsDTO)">
+            <summary>
+            Searches for events based on the provided criteria.
+            </summary>
+            <param name="searchCriteria">The search criteria for events.</param>
+            <returns>A list of events matching the search criteria.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventByOrganizerIdAsync(System.String)">
+            <summary>
+            Retrieves events by the organizer's ID.
+            </summary>
+            <param name="organizerId">The organizer's ID.</param>
+            <returns>A list of events for the given organizer.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventByCityandCountryAsync(System.String,System.String)">
+            <summary>
+            Retrieves events by city and country.
+            </summary>
+            <param name="city">The city name.</param>
+            <param name="country">The country name.</param>
+            <returns>A list of events in the specified city and country.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventByCountryAsync(System.String)">
+            <summary>
+            Retrieves events by country.
+            </summary>
+            <param name="country">The country name.</param>
+            <returns>A list of events in the specified country.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.EventController.GetEventByCityAsync(System.String)">
+            <summary>
+            Retrieves events by city.
+            </summary>
+            <param name="city">The city name.</param>
+            <returns>A list of events in the specified city.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.CreateFeedback(NegusEventsApi.Models.Feedback.Feedbacks)">
+            <summary>
+            Creates new feedback.
+            </summary>
+            <param name="feedback">The feedback object to create.</param>
+            <returns>A response indicating the result of the creation.</returns>
+            <response code="401">Unauthorized if attendee ID is not provided.</response>
+            <response code="500">Internal server error if something goes wrong.</response>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.UpdateFeedback(System.String,NegusEventsApi.Models.Feedback.Feedbacks)">
+            <summary>
+            Updates feedback by ID.
+            </summary>
+            <param name="id">The ID of the feedback to update.</param>
+            <param name="feedback">The updated feedback object.</param>
+            <returns>A response indicating the result of the update.</returns>
+            <response code="404">Feedback not found.</response>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.DeleteFeedback(System.String)">
+            <summary>
+            Deletes feedback by ID.
+            </summary>
+            <param name="id">The ID of the feedback to delete.</param>
+            <returns>A response indicating the result of the deletion.</returns>
+            <response code="404">Feedback not found.</response>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.GetAllFeedback">
+            <summary>
+            Retrieves all feedback.
+            </summary>
+            <returns>A list of all feedback.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.GetFeedbackById(System.String)">
+            <summary>
+            Retrieves feedback by ID.
+            </summary>
+            <param name="id">The ID of the feedback to retrieve.</param>
+            <returns>The feedback with the specified ID.</returns>
+            <response code="404">Feedback not found.</response>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.FeedbackController.GetAverageRating(System.String)">
+            <summary>
+            Retrieves the average rating for a specific event based on feedback.
+            </summary>
+            <param name="eventId">The ID of the event to get the average rating for.</param>
+            <returns>The average rating for the specified event.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.CreateTicketReservation(NegusEventsApi.Models.Ticket.Tickets)">
+            <summary>
+            Creates a ticket reservation for the specified event.
+            </summary>
+            <param name="ticket">The ticket details, including the associated event.</param>
+            <returns>
+            A status indicating the result of the reservation:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: If the reservation is successful.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.BadRequestObjectResult"/>: If tickets are sold out or the event is invalid.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult"/>: If attendee information is not found in the token.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.ConfirmTicketReservation(System.String,System.Int32)">
+            <summary>
+            Confirms a ticket reservation and processes the payment.
+            </summary>
+            <param name="ticketId">The unique identifier of the ticket reservation to confirm.</param>
+            <param name="amountPaid">The payment amount for the reservation.</param>
+            <returns>
+            A status indicating the result of the confirmation:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: If the ticket purchase is successful.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.BadRequestObjectResult"/>: If the confirmation fails or an error occurs.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.CancelTicketReservation(System.String,System.String)">
+            <summary>
+            Cancels a ticket reservation for the specified ticket and event.
+            </summary>
+            <param name="ticketId">The unique identifier of the ticket to cancel.</param>
+            <param name="eventId">The unique identifier of the event associated with the ticket.</param>
+            <returns>
+            A status indicating the result of the cancellation:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: If the cancellation is successful.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.BadRequestObjectResult"/>: If the cancellation fails.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.UpdateTicket(System.String,NegusEventsApi.Models.Ticket.Tickets)">
+            <summary>
+            Updates the details of a ticket for the specified ticket ID.
+            </summary>
+            <param name="id">The unique identifier of the ticket to update.</param>
+            <param name="ticket">The updated ticket details.</param>
+            <returns>
+            A status indicating the result of the update:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.NoContentResult"/>: If the update is successful.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.NotFoundObjectResult"/>: If the ticket is not found.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.CancelBooking(System.String)">
+            <summary>
+            Cancels a ticket booking for the specified ticket ID.
+            </summary>
+            <param name="id">The unique identifier of the ticket booking to cancel.</param>
+            <returns>
+            A status indicating the result of the cancellation:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.NoContentResult"/>: If the cancellation is successful.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.DeleteTicket(System.String)">
+            <summary>
+            Deletes a ticket by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the ticket to delete.</param>
+            <returns>
+            A status indicating the result of the deletion:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.NoContentResult"/>: If the deletion is successful.
+            - <see cref="T:Microsoft.AspNetCore.Mvc.NotFoundObjectResult"/>: If the ticket is not found.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetTicketsByEventId(System.String)">
+            <summary>
+            Retrieves all tickets associated with a specific event.
+            </summary>
+            <param name="eventId">The unique identifier of the event.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetConfirmedTicketsByEventId(System.String)">
+            <summary>
+            Retrieves all confirmed tickets associated with a specific event.
+            </summary>
+            <param name="eventId">The unique identifier of the event.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetReservedTicketsByEventId(System.String)">
+            <summary>
+            Retrieves all reserved tickets associated with a specific event.
+            </summary>
+            <param name="eventId">The unique identifier of the event.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetCancelledTicketsByEventId(System.String)">
+            <summary>
+            Retrieves all cancelled tickets associated with a specific event.
+            </summary>
+            <param name="eventId">The unique identifier of the event.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetTicketById(System.String)">
+            <summary>
+            Retrieves specific ticket associated with ticket id.
+            </summary>
+            <param name="id">The unique identifier of the ticket.</param>
+            <returns>
+            Tickets for the specified ticket, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the ticket detail.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetReservedTicketsByUser">
+            <summary>
+            Retrieves all reserved tickets associated with a specific user from redis.
+            </summary>
+            <param name="attendeeId">The unique identifier of the user.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetConfirmedTicketsByUser">
+            <summary>
+            Retrieves all confirmed tickets associated with a specific user from redis.
+            </summary>
+            <param name="attendeeId">The unique identifier of the user.</param>
+            <returns>
+            A list of tickets for the specified event, along with the total count:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the total count and ticket details.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.TicketController.GetAvailableTickets(System.String)">
+            <summary>
+            Retrieves all available tickets associated with a specific event from redis.
+            </summary>
+            <param name="eventId">The unique identifier of the user.</param>
+            <returns>
+            Available number of tickets for the specified event,:
+            - <see cref="T:Microsoft.AspNetCore.Mvc.OkObjectResult"/>: Contains the event id and availble number of ticket.
+            </returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.Register(NegusEventsApi.Models.User.Users)">
+            <summary>
+            Registers a new user.
+            </summary>
+            <param name="user">The user object containing user details.</param>
+            <returns>A success message if registration is successful.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.RegisterOrganizer(NegusEventsApi.Models.User.Users)">
+            <summary>
+            Registers a new organizer.
+            </summary>
+            <param name="user">The organizer object containing organizer details.</param>
+            <returns>A success message if registration is successful.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.LogIn(NegusEventsApi.DTO.NLoginRequest)">
+            <summary>
+            Logs in a user and generates a JWT token.
+            </summary>
+            <param name="loginRequest">The login request containing email and password.</param>
+            <returns>A JWT token if login is successful.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.GetUserbyEmailid(System.String)">
+            <summary>
+            Gets a user by email.
+            </summary>
+            <param name="email">The email address of the user.</param>
+            <returns>The user object if found.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.GetPendingOrganizers">
+            <summary>
+            Gets a list of pending organizers.
+            </summary>
+            <returns>A list of pending organizers.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.GetApprovedOrganizers">
+            <summary>
+            Gets a list of approved organizers.
+            </summary>
+            <returns>A list of approved organizers.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.ApproveOrganizer(System.String)">
+            <summary>
+            Approves an organizer.
+            </summary>
+            <param name="userId">The user ID of the organizer to approve.</param>
+            <returns>A success message if approval is successful.</returns>
+        </member>
+        <member name="M:NegusEventsApi.Controllers.UserController.ResetPassword(NegusEventsApi.Models.User.ResetForgotPasswordRequest)">
+            <summary>
+            Resets a user's password.
+            </summary>
+            <param name="model">The reset password request containing email, token, and new password.</param>
+            <returns>A success message if the password is reset successfully.</returns>
+        </member>
+    </members>
+</doc>

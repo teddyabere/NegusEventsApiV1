@@ -1,0 +1,964 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\event\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\event\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\indexmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\indexmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\event\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\event\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\eventsbylocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\eventsbylocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\ticket\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\ticket\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\feedback\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\feedback\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\feedback\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\feedback\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\neguseventsdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\neguseventsdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\redis\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:redis\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\event\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\event\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\ticket\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\ticket\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\analyticsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\analyticsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\ticket\\ticketnumbertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\ticket\\ticketnumbertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\searcheventsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\searcheventsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\redis\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:redis\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\ianalyticsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\ianalyticsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\ianalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\ianalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\analyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\analyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\revenuebytickettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\revenuebytickettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\eventpopularitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\eventpopularitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\models\\feedback\\feedbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:models\\feedback\\feedbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\neguseventsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:neguseventsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|c:\\users\\theodore\\documents\\projects\\ted\\negusevents\\negus new\\neguseventsapiv1\\neguseventsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC1FA206-DC5A-4C0E-843E-D5F28C553EB1}|NegusEventsApi.csproj|solutionrelative:neguseventsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\PaymentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\PaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\IPaymentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\Payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\PaymentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\IPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Event\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\EventRepository.cs",
+              "RelativeToolTip": "Models\\Event\\EventRepository.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAA8wJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:11:07.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAA8wOUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:25:01.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\EventService.cs",
+              "RelativeToolTip": "Services\\EventService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:19:58.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IEventService.cs",
+              "RelativeDocumentMoniker": "Services\\IEventService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IEventService.cs",
+              "RelativeToolTip": "Services\\IEventService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:19:07.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\TicketRepository.cs",
+              "RelativeToolTip": "Models\\Ticket\\TicketRepository.cs",
+              "ViewState": "AgIAANEAAAAA/P//////v+IAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:14:48.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\ITicketRepository.cs",
+              "RelativeToolTip": "Models\\Ticket\\ITicketRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:38:39.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:48:38.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexManager.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IndexManager.cs",
+              "RelativeDocumentMoniker": "Services\\IndexManager.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IndexManager.cs",
+              "RelativeToolTip": "Services\\IndexManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:47:43.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsByLocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventsByLocationDto.cs",
+              "RelativeDocumentMoniker": "DTO\\EventsByLocationDto.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventsByLocationDto.cs",
+              "RelativeToolTip": "DTO\\EventsByLocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:28:26.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Event\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\IEventRepository.cs",
+              "RelativeToolTip": "Models\\Event\\IEventRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:36:13.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwGcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:01:26.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:57:28.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T23:33:32.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Models\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\UserRepository.cs",
+              "RelativeToolTip": "Models\\User\\UserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T23:15:05.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Models\\User\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\IUserRepository.cs",
+              "RelativeToolTip": "Models\\User\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:39:01.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\FeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback\\FeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\FeedbackRepository.cs",
+              "RelativeToolTip": "Models\\Feedback\\FeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:32:12.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\IFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback\\IFeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\IFeedbackRepository.cs",
+              "RelativeToolTip": "Models\\Feedback\\IFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:37:26.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\TicketService.cs",
+              "RelativeToolTip": "Services\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:18:43.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T13:45:05.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NegusEventsDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\NegusEventsDbSettings.cs",
+              "RelativeDocumentMoniker": "Models\\NegusEventsDbSettings.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\NegusEventsDbSettings.cs",
+              "RelativeToolTip": "Models\\NegusEventsDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:44:32.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "Controllers\\TicketController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAADwv68AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:21:33.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\ITicketService.cs",
+              "RelativeDocumentMoniker": "Services\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\ITicketService.cs",
+              "RelativeToolTip": "Services\\ITicketService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:18:06.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Redis\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "Redis\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Redis\\RedisCacheService.cs",
+              "RelativeToolTip": "Redis\\RedisCacheService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:50:31.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Models\\Payment\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\PaymentRepository.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Models\\Payment\\PaymentRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA9wBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:01:46.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\Events.cs",
+              "RelativeDocumentMoniker": "Models\\Event\\Events.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Event\\Events.cs",
+              "RelativeToolTip": "Models\\Event\\Events.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:35:34.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\PaymentService.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:03:31.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T15:26:54.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\Tickets.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket\\Tickets.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\Tickets.cs",
+              "RelativeToolTip": "Models\\Ticket\\Tickets.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:38:28.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Models\\Payment\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\IPaymentRepository.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Models\\Payment\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:38:13.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\Payments.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Models\\Payment\\Payments.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Models\\Payment\\Payments.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Models\\Payment\\Payments.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:37:42.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:04:34.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AnalyticsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\AnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "Models\\AnalyticsRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\AnalyticsRepository.cs",
+              "RelativeToolTip": "Models\\AnalyticsRepository.cs",
+              "ViewState": "AgIAAJoAAAAAYGZmZmb2v6YAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:30:58.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnalyticsServices.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\AnalyticsServices.cs",
+              "RelativeDocumentMoniker": "Services\\AnalyticsServices.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\AnalyticsServices.cs",
+              "RelativeToolTip": "Services\\AnalyticsServices.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:35:14.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:37:34.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TicketNumberTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\TicketNumberTracker.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket\\TicketNumberTracker.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Ticket\\TicketNumberTracker.cs",
+              "RelativeToolTip": "Models\\Ticket\\TicketNumberTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:56:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchEventsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\SearchEventsDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SearchEventsDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\SearchEventsDTO.cs",
+              "RelativeToolTip": "DTO\\SearchEventsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:03:36.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Redis\\IRedisCacheService.cs",
+              "RelativeDocumentMoniker": "Redis\\IRedisCacheService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Redis\\IRedisCacheService.cs",
+              "RelativeToolTip": "Redis\\IRedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:29:48.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T15:04:33.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAnalyticsServices.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IAnalyticsServices.cs",
+              "RelativeDocumentMoniker": "Services\\IAnalyticsServices.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IAnalyticsServices.cs",
+              "RelativeToolTip": "Services\\IAnalyticsServices.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:42:42.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOkSAAAAAAAAAAAgwPMSAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-25T18:00:16.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:31:39.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\NegusEventsApi\\Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\NegusEventsApi\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "..\\..\\NegusEventsApi\\Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:13:43.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAnalyticsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\IAnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IAnalyticsRepository.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\IAnalyticsRepository.cs",
+              "RelativeToolTip": "Models\\IAnalyticsRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:31:47.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\FeedbackService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\FeedbackService.cs",
+              "RelativeToolTip": "Services\\FeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:35:17.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AnalyticsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\AnalyticsDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AnalyticsDto.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\AnalyticsDto.cs",
+              "RelativeToolTip": "DTO\\AnalyticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:22:39.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IFeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IFeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\IFeedbackService.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Services\\IFeedbackService.cs",
+              "RelativeToolTip": "Services\\IFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:34:23.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAvwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T02:38:54.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RevenueByTicketTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\RevenueByTicketTypeDto.cs",
+              "RelativeDocumentMoniker": "DTO\\RevenueByTicketTypeDto.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\RevenueByTicketTypeDto.cs",
+              "RelativeToolTip": "DTO\\RevenueByTicketTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:20:43.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventPopularityDto.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventPopularityDto.cs",
+              "RelativeDocumentMoniker": "DTO\\EventPopularityDto.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventPopularityDto.cs",
+              "RelativeToolTip": "DTO\\EventPopularityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:11:24.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\MongoDbContext.cs",
+              "RelativeToolTip": "Models\\MongoDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:42:45.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\User\\Users.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\User\\Users.cs",
+              "RelativeToolTip": "Models\\User\\Users.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:38:51.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Feedbacks.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\Feedbacks.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback\\Feedbacks.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\Models\\Feedback\\Feedbacks.cs",
+              "RelativeToolTip": "Models\\Feedback\\Feedbacks.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:37:09.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TicketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\TicketDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TicketDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\TicketDTO.cs",
+              "RelativeToolTip": "DTO\\TicketDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:31:08.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\PaymentDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\PaymentDTO.cs",
+              "RelativeToolTip": "DTO\\PaymentDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:32:19.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FeedBackDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\FeedBackDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FeedBackDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\FeedBackDTO.cs",
+              "RelativeToolTip": "DTO\\FeedBackDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:32:09.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EventDTO.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\EventDTO.cs",
+              "RelativeToolTip": "DTO\\EventDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:31:20.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:52:06.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NegusEventsApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\NegusEventsApi.csproj",
+              "RelativeDocumentMoniker": "NegusEventsApi.csproj",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\NegusEventsApi.csproj",
+              "RelativeToolTip": "NegusEventsApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-20T14:23:21.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NegusEventsApi",
+              "DocumentMoniker": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\NegusEventsApi.csproj",
+              "RelativeDocumentMoniker": "NegusEventsApi.csproj",
+              "ToolTip": "C:\\Users\\Theodore\\Documents\\Projects\\Ted\\NegusEvents\\Negus New\\NegusEventsApiV1\\NegusEventsApi.csproj",
+              "RelativeToolTip": "NegusEventsApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-20T15:01:06.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
