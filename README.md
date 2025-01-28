@@ -43,8 +43,6 @@ Ensure the following tools are installed:
 
 The `appsettings.json` file configure MongoDB, Redis, and authentication:
 
-
-```
 ## Installation
 
 ### Clone the Repository
