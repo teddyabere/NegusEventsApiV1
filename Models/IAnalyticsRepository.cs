@@ -28,7 +28,7 @@ namespace NegusEventsApi.Models
 
         Task<Dictionary<string, int>> GetTop5CitiesWithMostEventsAsync();
 
-        Task<List<BsonDocument>> GetTop10EventsByRatingAsync();
+        Task<Dictionary<string, double>> GetTop10EventsByRatingAsync();
 
         Task<Dictionary<string, double>> GetTop5EventsByRatingAsync();
     }

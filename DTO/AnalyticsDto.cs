@@ -9,8 +9,7 @@ namespace NegusEventsApi.DTO
         public int EventCount { get; set; }
         public double AverageRating { get; set; }
         public Dictionary<string, int> EventsByCategory { get; set; } = new();
-        public List<BsonDocument> EventsByLocation { get; set; }
-        //public Dictionary<string, decimal> RevenueByOrganizer { get; set; } = new();
+        public Dictionary<string, int> EventsByCountry { get; set; }
     }
 
 }

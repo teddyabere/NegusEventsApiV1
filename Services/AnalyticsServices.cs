@@ -95,7 +95,7 @@ namespace NegusEventsApi.Services
             return await _analyticsRepository.GetTop5CitiesWithMostEventsAsync();
         }
 
-        public async Task<List<BsonDocument>> GetTop10EventsByRatingAsync()
+        public async Task<Dictionary<string, double>> GetTop10EventsByRatingAsync()
         {
             return await _analyticsRepository.GetTop10EventsByRatingAsync();
         }

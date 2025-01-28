@@ -22,7 +22,7 @@ namespace NegusEventsApi.Models.Ticket
         Task CreateTicketRefNumberAsync(TicketNumberTracker ticketNum);
         Task UpdateTicketRefNumberAsync(string id, int lastNumber);
         Task DeleteTicketRefNumberAsync(string id);
-
+        
         Task<List<Tickets>> GetReservedTicketsByUserAsync(string userId);
         Task<List<Tickets>> GetConfirmedTickets(string userId);
 

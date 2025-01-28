@@ -23,8 +23,13 @@ namespace NegusEventsApi.Models.Event
 
         public async Task<IEnumerable<Events>> GetAllEventsAsync()
         {
-            return await _events.Find(_ => true).SortBy(e => e.StartDate).ToListAsync();
+            var filter1 = Builders<Events>.Filter.Exists(e => e.StartDate, true);
+
+            var filteredEvents = await _events.Find(filter1).ToListAsync();
+
+            return filteredEvents;
         }
+
         public async Task<IEnumerable<Events>> GetActiveEventsAsync()
         {
             return await _events.Find(x=> x.Status == EventStatus.Published.ToString() || x.Status == EventStatus.Extended.ToString())

@@ -126,11 +126,16 @@ namespace NegusEventsApi.Models
                 })
             };
             var revenueResult = await _tickets.Aggregate<BsonDocument>(revenuePipeline).FirstOrDefaultAsync();
+            var totalRevenue = revenueResult != null && revenueResult.Contains("totalRevenue") && revenueResult["totalRevenue"].IsNumeric
+    ? revenueResult["totalRevenue"].ToDecimal() : 0;
 
-            var totalRevenue = revenueResult?["totalRevenue"].AsDecimal ?? 0;
+            // var totalRevenue = revenueResult?["totalRevenue"].AsDecimal ?? 0;
 
             var categoryPipeline = new[]
             {
+                 new BsonDocument("$match", new BsonDocument("$expr", new BsonDocument("$eq", new BsonArray{
+                    new BsonDocument("$type", "category"), "string"
+                }))),
                 new BsonDocument("$group", new BsonDocument
                 {
                     { "_id", "$category" },
@@ -141,9 +146,12 @@ namespace NegusEventsApi.Models
 
             var locationPipeline = new[]
             {
+                 new BsonDocument("$match", new BsonDocument("$expr", new BsonDocument("$eq", new BsonArray{
+                    new BsonDocument("$type", "location.country"), "string"
+                }))),
                 new BsonDocument("$group", new BsonDocument
                 {
-                    { "_id", "$location.city" },
+                    { "_id", "$location.country" },
                     { "location", new BsonDocument("$sum", 1) }
                 })
             };
@@ -154,9 +162,11 @@ namespace NegusEventsApi.Models
                 TotalTicketsSold = (int)totalTickets,
                 TotalRevenue = totalRevenue,
                 EventsByCategory = categories.ToDictionary(
-                    c => c["_id"].AsString,
+                    c => c["_id"] == BsonNull.Value ? "Unknown" : c["_id"].AsString,
                     c => c["eventCount"].AsInt32),
-                EventsByLocation = locations
+                EventsByCountry = locations.ToDictionary(
+                    l => l["_id"] == BsonNull.Value ? "Unknown" : l["_id"].AsString,
+                    l => l["location"].AsInt32)
             };
         }
 
@@ -311,27 +321,24 @@ namespace NegusEventsApi.Models
                     r => r["totalEvents"].AsInt32);
         }
 
-        public async Task<List<BsonDocument>> GetTop10EventsByRatingAsync()
+        public async Task<Dictionary<string, double>> GetTop10EventsByRatingAsync()
         {
             var pipeline = new[]
             {
+                
                 new BsonDocument("$group", new BsonDocument
                 {
                     { "_id", "$event.eventId" },
-                    { "eventName", new BsonDocument("$first", "$event.eventName") },
                     { "avgRating", new BsonDocument("$avg", "$rating") }
                 }),
-                new BsonDocument("$sort", new BsonDocument("avgRating", -1)),                
-                new BsonDocument("$project", new BsonDocument
-                {
-                    { "eventId", "$_id" },
-                    { "eventName", 1 },
-                    { "avgRating", 1 }
-                })
+                new BsonDocument("$sort", new BsonDocument("avgRating", -1)),
+                new BsonDocument("$limit", 10)
             };
-
             var result = await _feedback.Aggregate<BsonDocument>(pipeline).ToListAsync();
-            return result;
+
+            return result.ToDictionary(
+                r => r["_id"].IsBsonNull ? "Unknown" : r["_id"].AsString,
+                r => r["avgRating"].AsDouble);
         }
 
 
@@ -339,13 +346,13 @@ namespace NegusEventsApi.Models
         {
             var pipeline = new[]
             {
-                new BsonDocument("$match", new BsonDocument("$expr", new BsonDocument("$eq", new BsonArray{
-                    new BsonDocument("$type", "location.city"), "string"
-                }))),
+                //new BsonDocument("$match", new BsonDocument("$expr", new BsonDocument("$eq", new BsonArray{
+                //    new BsonDocument("$type", "location.city"), "string"
+                //}))),
                 new BsonDocument("$group", new BsonDocument
                 {
                     { "_id", "$event.eventId" },
-                    { "eventName", new BsonDocument("$first", "$event.eventName") },
+                    //{ "eventName", new BsonDocument("$first", "$event.eventName") },
                     { "avgRating", new BsonDocument("$avg", "$rating") }
                 }),
                 new BsonDocument("$sort", new BsonDocument("avgRating", -1)),
