@@ -77,7 +77,16 @@ namespace NegusEventsApi.Services
             var userE = await _userRepository.GetApprovedOrganizers();
             return userE;
         }
-
+        public async Task<List<Users>> GetAllUsersOrganizers()
+        {
+            var userE = await _userRepository.GetAllUsersOrganizers();
+            return userE;
+        }
+        public async Task<List<Users>> GetAllAttendees()
+        {
+            var userE = await _userRepository.GetAllAttendees();
+            return userE;
+        }
         public async Task<Users> GetByIdAsync(string id){
             return await _userRepository.GetUserByIdAsync(id);
         }

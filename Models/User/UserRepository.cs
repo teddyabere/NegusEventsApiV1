@@ -55,6 +55,16 @@ namespace NegusEventsApi.Models.User
             return await _userCollection.Find(user => user.Role == "Organizer" && user.Status == "Approved")
                 .ToListAsync();
         }
+        public async Task<List<Users>> GetAllUsersOrganizers()
+        {
+            return await _userCollection.Find(user => user.Status == "Approved")
+                .ToListAsync();
+        }
+        public async Task<List<Users>> GetAllAttendees()
+        {
+            return await _userCollection.Find(user => user.Status == "Approved")
+                .ToListAsync();
+        }
         public async Task UpdateUserAsync(string id, Users User)
         {
             await _userCollection.ReplaceOneAsync(f => f.Id == id, User);

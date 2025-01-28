@@ -46,23 +46,6 @@ namespace NegusEventsApi.Controllers
             return Ok("User registered successfully.");
         }
 
-        /// <summary>
-        /// Registers a new organizer.
-        /// </summary>
-        /// <param name="user">The organizer object containing organizer details.</param>
-        /// <returns>A success message if registration is successful.</returns>
-        [HttpPost("sign-up/register-organizer")]
-        public async Task<IActionResult> RegisterOrganizer(Users user)
-        {
-            var existingUser = await _userService.GetByEmailAsync(user.Email);
-            if (existingUser != null)
-                return BadRequest("Email is already in use.");
-
-            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-
-            await _userService.CreateUserAsync(user);
-            return Ok("User registered successfully.");
-        }
 
         /// <summary>
         /// Logs in a user and generates a JWT token.
@@ -132,7 +115,7 @@ namespace NegusEventsApi.Controllers
         /// </summary>
         /// <returns>A list of approved organizers.</returns>
         [HttpGet("get-approved-organizers")]
-        [Authorize(Roles = "Admin,Organizer")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetApprovedOrganizers()
         {
             var approvedOrganizers = await _userService.GetApprovedOrganizers();
@@ -140,11 +123,34 @@ namespace NegusEventsApi.Controllers
         }
 
         /// <summary>
+        /// Gets a list of approved users.
+        /// </summary>
+        /// <returns>A list of approved organizers.</returns>
+        [HttpGet("get-all-approved-users")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllUsersOrganizers()
+        {
+            var approvedOrganizers = await _userService.GetAllUsersOrganizers();
+            return Ok(approvedOrganizers);
+        }
+
+        /// <summary>
+        /// Gets a list of attendee users.
+        /// </summary>
+        /// <returns>A list of attendees.</returns>
+        [HttpGet("get-all-attendees")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllAttendees()
+        {
+            var approvedOrganizers = await _userService.GetAllAttendees();
+            return Ok(approvedOrganizers);
+        }
+        /// <summary>
         /// Approves an organizer.
         /// </summary>
         /// <param name="userId">The user ID of the organizer to approve.</param>
         /// <returns>A success message if approval is successful.</returns>
-        [HttpGet("approve-Organizer")]
+        [HttpPost("approve-Organizer")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> ApproveOrganizer(string userId)
         {

@@ -13,6 +13,8 @@ namespace NegusEventsApi.Models.User
         Task<Users> GetUserByEmailAsync(string email);
         Task<List<Users>> GetPendignOrganizers();
         Task<List<Users>> GetApprovedOrganizers();
+        Task<List<Users>> GetAllUsersOrganizers();
+        Task<List<Users>> GetAllAttendees();
         Task<Users> GetOrganizerByIdAsync(string id);
         Task<Users> GetAttendeeByIdAsync(string id);
     }

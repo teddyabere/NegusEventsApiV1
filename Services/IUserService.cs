@@ -8,6 +8,8 @@ namespace NegusEventsApi.Services
         Task<Users> GetByEmailAsync(string email);
         Task<List<Users>> GetPendingOrganizers();
         Task<List<Users>> GetApprovedOrganizers();
+        Task<List<Users>> GetAllUsersOrganizers();
+        Task<List<Users>> GetAllAttendees();
         Task ApproveOrgannizer(Users user);
         //Task UpdateUserAsync(string id, Users User);
         Task ResetPasswordAsync(string id, Users User, string token, string hashedPassword);
