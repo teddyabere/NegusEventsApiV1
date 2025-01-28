@@ -11,7 +11,6 @@ The repository is organized into the following folders:
 - **`Models/`**: Entity models defining database schemas and system logic.
 - **`Services/`**: Contains system logic to handle operations like ticket purchases, event creation, and feedback analysis.
 - **`Redis/`**: Implementation of Redis caching to improve application performance.
-- **`wwwroot/`**: Static files and configuration for hosting.
 
 ---
 
@@ -32,7 +31,7 @@ The repository is organized into the following folders:
 
 Ensure the following tools are installed:
 
-- [.NET SDK 6.0](https://dotnet.microsoft.com/)
+- [.NET SDK 8.0](https://dotnet.microsoft.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Redis](https://redis.io/)
 
@@ -42,29 +41,9 @@ Ensure the following tools are installed:
 
 #### `appsettings.json`
 
-The `appsettings.json` file configures MongoDB, Redis, and authentication:
+The `appsettings.json` file configure MongoDB, Redis, and authentication:
 
-```json
-{
-  "NegusEventsDbSettings": {
-    "ConnectionString": "mongodb://10.1.1.54,10.1.1.48,10.1.1.46/?replicaSet=NegusReplicaSet&w=2&readPreference=secondaryPreferred"
-    "DatabaseName": "NegusEvents"
-  },
-  "Jwt": {
-    "Key": "YourSecretKeyForAuthenticationOfApplication",
-    "Issuer": "YourCompanyIssuer.com"
-  },
-  "ConnectionStrings": {
-    "RedisConnection": "localhost:6379"
-  },
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "AllowedHosts": "*"
-}
+
 ```
 ## Installation
 
