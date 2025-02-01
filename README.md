@@ -1,6 +1,7 @@
 # Negus Events
 
-**Negus Events** is a comprehensive system for event management, built using C# and ASP.NET Core. It supports administrators, organizers, attendees, ticketing, and feedback while leveraging MongoDB and Redis for efficient storage and performance.
+**Negus Events** is a comprehensive, scalable event management system built using **C# and ASP.NET Core**. It streamlines event organization, ticketing, and attendee engagement, leveraging MongoDB and Redis for efficient storage and performance.
+
 
 ## Repository Structure
 
@@ -17,7 +18,7 @@ The repository is organized into the following folders:
 ## Features
 
 - **Event Management**: Create, view, update, and delete events with organizer and attendee details.
-- **Tickets System**: Purchase, reserve, and cancel tickets with real-time tracking of availability.
+- **Tickets System**: Purchase, reserve, and cancel tickets with real-time availability tracking.
 - **Feedback System**: Collect and analyze attendee feedback for events.
 - **Redis Caching**: Accelerate performance by caching frequently accessed data.
 - **JWT Authentication**: Secure endpoints with role-based access control.
@@ -41,7 +42,7 @@ Ensure the following tools are installed:
 
 #### `appsettings.json`
 
-The `appsettings.json` file configure MongoDB, Redis, and authentication:
+The `appsettings.json` file configures MongoDB, Redis, and authentication:
 
 ## Installation
 
